@@ -10,7 +10,7 @@ export default function Navbar() {
         <li><Link to="/config">Campaigns</Link></li>
         <li><Link to="/creators">Creators</Link></li>
         <li><Link to="/videos">Videos</Link></li>
-        <li><Link to="/payment">Payment</Link></li>
+        <li><Link to="/pricing">Pricing</Link></li>
         <li><Link to="/persona">Persona</Link></li>
       </ul>
     </nav>

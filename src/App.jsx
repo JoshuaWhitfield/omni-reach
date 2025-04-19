@@ -6,6 +6,7 @@ import LandingPage from './pages/LandingPage';
 import CampaignPage from './pages/CampaignPage';
 import CreatorPage from './pages/CreatorPage';           // ✅ NEW
 import AccessDenied from './pages/AccessDenied';
+import PricingPage from './pages/PricingPage';
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
 
         <Route path="/config" element={<CampaignPage />} />
         <Route path="/videos" element={<CampaignPage />} />
-        <Route path="/payment" element={<CampaignPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
         <Route path="/persona" element={<CampaignPage />} />
         <Route path="/creators" element={<CreatorPage />} />   {/* ✅ NEW */}
         <Route path="/denied" element={<AccessDenied />} />
