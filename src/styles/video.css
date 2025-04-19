@@ -1,0 +1,27 @@
+.video-card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+  }
+  
+  .video-card h4 {
+    margin-bottom: 8px;
+  }
+  
+  .video-card a {
+    color: #b987ff;
+    text-decoration: none;
+  }
+  
+  .video-card a:hover {
+    color: #d1aaff;
+  }
+  
+  .video-detail {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
