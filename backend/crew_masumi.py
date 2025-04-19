@@ -1,6 +1,6 @@
 from crewai import Agent, Crew, Task
 from backend.agents.masumi_agent import run_agent_flow
-from logging_config import get_logger
+from backend.logging_config import get_logger
 
 class MasumiCrew:
     def __init__(self, verbose=True, logger=None):
