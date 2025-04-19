@@ -1,0 +1,53 @@
+.campaign-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #0f0f0f;
+    color: white;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #1a1a1a;
+    padding: 30px 20px;
+    border-right: 1px solid #333;
+  }
+  
+  .sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #8f00ff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    background-color: #252525;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .sidebar li:hover {
+    background-color: #2f2f2f;
+    color: #b987ff;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 40px;
+  }
+  
+  .persona-placeholder {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border: 1px dashed #555;
+    border-radius: 8px;
+    color: #999;
+    font-style: italic;
+  }
+  

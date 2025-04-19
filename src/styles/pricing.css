@@ -1,0 +1,50 @@
+.pricing-page {
+    padding: 40px;
+    color: white;
+    background-color: #121212;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-tiers {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 30px;
+    width: 280px;
+    text-align: left;
+  }
+  
+  .pricing-card.highlight {
+    border-color: #8f00ff;
+    box-shadow: 0 0 10px #8f00ff44;
+  }
+  
+  .price {
+    font-size: 28px;
+    margin: 15px 0;
+    color: #b987ff;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pricing-card li {
+    padding: 8px 0;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  
